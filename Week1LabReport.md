@@ -23,13 +23,13 @@ This is a tutorial on how to log on to your course specific account on `ieng6` f
 
 ### Account Look Up/ Resetting Password
 * Find the course specefic account by visiting [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
-The account for CSE 15L Winter 23 should begin with cs15lwi23 followed by 3 letters. 
+The account for CSE 15L Winter 23 should begin with cs15lwi23 followed by 3 letters specific to your account. 
 * Reset password by clicking on the additional account and following link to change password
-* After confirming new password hit enter instead of check password
+* After confirming your new password hit enter instead of check password
 * Wait 15-60 minutes before attempting to log in
 
 ### Connecting to ssh
-1. open terminal on macOS or terminal on VS code if on Windows
+1. Open terminal on macOS or terminal on VS code if on Windows
 
 2. run the following command, replacing zzz with the last 3 letters of your course specific account 
 >ssh cs15lwi23zzz@ieng6.ucsd.edu
@@ -37,11 +37,13 @@ The account for CSE 15L Winter 23 should begin with cs15lwi23 followed by 3 lett
 3. Type in your password and then hit enter. Be careful to not add spaces before or after. (password will be hidden while you type) It should like similar to the image below
 ![Image](RemoteAccess.png)
 4. After logging in the terminal should print out the following
-![Image](lab1.png)
+![Image](lab1LogIn.png)
 
 ---
 
 ## Trying Some Commands
+
+Once logged on to the remote server or on your own computer you can attempt to use some commands.
 
 The following commands are useful
 * cd
@@ -52,9 +54,12 @@ The following commands are useful
 ![Image](TryCommands3.png)
 * cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 * cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+
+Other Commands Include:
 * pwd -shows the full pathway of the current directory
 ![Image](TryCommands4.png)
-* mkdir - creates a new directory
-To exit server use the command `exit` or Ctrl- D
+* mkdir -creates a new directory
+
+**To exit server use the command `exit` or Ctrl- D**
   
 
