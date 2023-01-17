@@ -48,12 +48,9 @@ The following commands are useful
 * ls -lat
 * ls -a
 * ls (directory)
+![Image](TryCommands3.png)
 * cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 * cat /home/linux/ieng6/cs15lwi23/public/hello.txt
-![Image](TryCommands3.png)
-
-  
-Other Commands
 * pwd -shows the full pathway of the current directory
 ![Image](TryCommands4.png)
 * mkdir - creates a new directory
