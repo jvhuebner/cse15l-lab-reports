@@ -34,7 +34,7 @@ The account for CSE 15L Winter 23 should begin with cs15lwi23 followed by 3 lett
 2. run the following command, replacing zzz with the last 3 letters of your course specific account 
 >ssh cs15lwi23zzz@ieng6.ucsd.edu
 
-3. Type in password. Be careful to not add spaces before or after. (password will be hidden while you type) It should like similar to the image below
+3. Type in your password and then hit enter. Be careful to not add spaces before or after. (password will be hidden while you type) It should like similar to the image below
 ![Image](RemoteAccess.png)
 4. After logging in the terminal should print out the following
 ![Image](lab1.png)
