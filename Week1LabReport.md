@@ -2,10 +2,61 @@
 
 ---
 
-This is a tutorial on how to log on to your course specific account on `ieng6` for CSE 15L. The three sections are 
+This is a tutorial on how to log on to your course specific account on `ieng6` for CSE 15L. The three parts covered are 
 
 * Instaling VS Code
 * Remotely Connecting
 * Trying Some Commands
 
-***
+---
+
+## Instaling VS Code
+
+1. Visit [VS Code Website](https://code.visualstudio.com/)
+2. Download and install the version for your operating system (macOS or Windows)
+3. Opening VS Code should look something like the image below
+![Image](VSCode.png)
+
+---
+
+## Remotely Connecting
+
+### Account Look Up/ Resetting Password
+* Find the course specefic account by visiting [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
+The account for CSE 15L Winter 23 should begin with cs15lwi23 followed by 3 letters. 
+* Reset password by clicking on the additional account and following link to change password
+* After confirming new password hit enter instead of check password
+* Wait 15-60 minutes before attempting to log in
+
+### Connecting to ssh
+1) open terminal on macOS or terminal on VS code if on Windows
+2) run the following command, replacing zzz with the last 3 letters of your course specific account 
+>ssh cs15lwi23zzz@ieng6.ucsd.edu
+
+3) Type in password. Be careful to not add spaces before or after. (password will be hidden while you type) It should like similar to the image below
+![Image](RemoteAccess.png)
+4) After logging in the terminal should print out the following
+![Image](lab1.png)
+
+---
+
+## Trying Some Commands
+
+The following commands are useful
+* cd
+* cd ~
+* ls -lat
+* ls -a
+* ls (directory)
+* cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+* cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+![Image](TryCommands3.png)
+
+  
+Other Commands
+* pwd -shows the full pathway of the current directory
+![Image](TryCommands4.png)
+* mkdir - creates a new directory
+To exit server use the command `exit` or Ctrl- D
+  
+
