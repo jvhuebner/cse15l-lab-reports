@@ -24,7 +24,7 @@ This is a tutorial on how to log on to your course specific account on `ieng6` f
 ### Account Look Up/ Resetting Password
 * Find the course specefic account by visiting [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
 The account for CSE 15L Winter 23 should begin with cs15lwi23 followed by 3 letters specific to your account. 
-* Reset password by clicking on the additional account and following link to change password
+* Reset password by clicking on the additional account that begins with `cse15lwi23` and following link (see screenshot below) to change password
 ![Image](ChangePassword.png)
 * After confirming your new password hit enter instead of check password
 * Wait 15-60 minutes before attempting to log in
