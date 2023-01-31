@@ -37,7 +37,7 @@ The following are two examples of /add-message being used.
 ### The Bug
 
 **Before:**
-> static double averageWithoutLowest(double[] arr) {
+static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
     double lowest = arr\[0\];
     for(double num: arr) {
@@ -51,7 +51,7 @@ The following are two examples of /add-message being used.
 }
 
 **After:**
-> static double averageWithoutLowest(double[] arr) {
+static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
     double lowest = arr[0];
     for(double num: arr) {
