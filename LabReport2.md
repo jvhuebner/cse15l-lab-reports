@@ -53,7 +53,7 @@ static double averageWithoutLowest(double[] arr) {
 **After:**
 static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
-    double lowest = arr[0];
+    double lowest = arr\[0\];
     for(double num: arr) {
       if(num < lowest) { lowest = num; }
     }
