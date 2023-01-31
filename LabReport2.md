@@ -69,4 +69,9 @@ The following are two examples of /add-message being used.
 
 This fixes the problem because it accounts for how many instances of the lowest value where removed in order to get divide by how many values where added to sum to get the correct average. In addition it checks to see if the number of removed values equals the length of the original array incase the array contained only repotitions of the same value and were therefore all removed. If they were all removed, it returns 0.0 to avoid a divide by zero error that would be cause by dividing the sum by zero. 
 
+---
+
+## What I learned
+
+I learned how to create a server that is accessable from my device and others by using my computer's (or a remote computer's) ports. I did not previously know that my computer had ports that I could use. I also learned about debugging by using Junit tests and how to run the tests through VS Code's Testing instead of only through the terminal. thsi made it significantly faster and easier for me to execute tests on the code.
 
