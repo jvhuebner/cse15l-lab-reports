@@ -3,9 +3,10 @@
 
 This contains three parts
 
-* Web Server
-* Debugging from lab 3
-* What I learned
+* Web Server  
+* Debugging from lab 3  
+* What I learned  
+
 ---
 
 ## Web Server called `StringServer`
