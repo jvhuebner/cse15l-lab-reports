@@ -90,5 +90,5 @@ This fixes the problem because it accounts for how many instances of the lowest 
 
 ## What I learned
 
-I learned how to create a server that is accessable from my device and others by using my computer's (or a remote computer's) ports. I did not previously know that my computer had ports that I could use. I also learned about debugging by using Junit tests and how to run the tests through VS Code's Testing instead of only through the terminal. thsi made it significantly faster and easier for me to execute tests on the code.
+I learned how to create a server that is accessable from my device and others by using my computer's (or a remote computer's) ports. I did not previously know that my computer had ports that I could use. I also learned about debugging by using Junit tests and how to run the tests through VS Code's Testing instead of only through the terminal. this made it significantly faster and easier for me to execute tests on the code.
 
