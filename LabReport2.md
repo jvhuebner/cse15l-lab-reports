@@ -53,7 +53,7 @@ public void testaverageWithoutLowest() {
 ```
 
 ### Symptom
-![Image](Symptom3.png)
+![Image](Symptom4.png)
 
 ### The Bug
 
