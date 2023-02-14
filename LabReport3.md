@@ -50,6 +50,7 @@ The output is:
 
 ## -i, --ignore-case
 This searched for the specfied pattern while ignoring the case of the letters within the pattern. This can be very useful to still find files that contain the pattern if the word(s) may or may not be capitalized.
+I found this using ChatGPT and [linuxcommand](https://linuxcommand.org/lc3_man_pages/grep1.html)
 
 An example of this is looking for Talia in the ch1.txt file in non-fiction/OP/Berk.
 Using -i in tandum with -c,
@@ -86,6 +87,7 @@ non-fiction/OUP/Berk/ch7.txt:0
 
 ## -n, --line-number
 This option displays the line number where the pattern is found within the specified file at the begining of the output. This is useful to know exactly where within the file the patttern is occuring so it can more easily be found when looking at the file seperatly or to go to the line number to look at the surrounding information. 
+I found this using ChatGPT and [linuxcommand](https://linuxcommand.org/lc3_man_pages/grep1.html)
 
 Here is an example of it being used:
 ```
@@ -110,6 +112,7 @@ non-fiction/OUP/Berk/CH4.txt:231:•Inﬂuencing another’s social behavior. Jo
 
 ## -C number
 This displays a certain number of lines of context before and after the found pattern. This is useful to only read through the sentances around the found word instead of getting the entire file returned. 
+I found this using ChatGPT and [linuxcommand](https://linuxcommand.org/lc3_man_pages/grep1.html)
 
 ```
 grep -C 1 "Talia" non-fiction/OUP/Berk/ch1.txt
