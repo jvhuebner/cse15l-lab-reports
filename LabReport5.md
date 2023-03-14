@@ -54,7 +54,7 @@ find non-fiction/OUP -type f -mtime -7 -print
 ```
 The output is printed in the terminal as a list of the files that I have modified recently in the `non-fiction/OUP` directory, mainly the chapter files in the Berk directory that I modified using the previously mentioned -exec option.
 
-![Image](print.png)
+![Image](print2.png)
 
 ---
 
